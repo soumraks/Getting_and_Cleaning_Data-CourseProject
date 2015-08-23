@@ -17,6 +17,7 @@ The cleaned up data is generated as a text file outpot named **_Tidy_Sensor_Data
 
 #### Script Details
 The R script, run_analysis.R, does the following:
+
 1. Load the activity and feature info
 2. Loads both the training and test datasets, keeping only those columns which reflect a mean or standard deviation
 3. Loads the activity and subject data for each dataset, and merges those columns with the dataset
